@@ -1,0 +1,1 @@
+docker run -d --name mongodb --env "MONGO_INITDB_ROOT_USERNAME=unicorn" --env "MONGO_INITDB_ROOT_PASSWORD=fairydust" mongo:6.0

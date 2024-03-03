@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  python-application:      
+    image: beanie-py
+    container_name: py-app
+    volumes:
+      - ./src:/host/src
+  

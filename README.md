@@ -38,5 +38,13 @@ docker run --name mongodb -d \
         mongo:6.0
 ```
 
+interactions with the mongo database can be done using the mongosh form te hcommand line
+https://www.w3schools.com/mongodb/mongodb_get_started.php
+to install
+```
+```
+
+install docker compose
+sudo apt install docker-compose-plugin -y
 
 

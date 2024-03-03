@@ -1,3 +1,3 @@
-docker build -f ./pythonDockerfile \
-             -t hello-world-py:latest \
+docker build -f ./Dockerfile-beanie \
+             -t  beanie-py:latest \
              .
